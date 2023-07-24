@@ -3,7 +3,7 @@ import { ProjectInterface, SessionInterface } from "@/common.types";
 import Image from "next/image";
 import { ChangeEvent, useState } from "react";
 import FormField from "./FormField";
-import { categoryFilters } from "@/constants";
+import { categoryFilters } from "@/constant";
 import CustomMenu from "./CustomMenu";
 import Button from "./Button";
 import { createNewProject, fetchToken, updateProject } from "@/lib/actions";
